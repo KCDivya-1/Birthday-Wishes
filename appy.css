@@ -40,10 +40,15 @@ left: 40%;
 	animation-duration: 3s;
 }
 .balloon:nth-child(3){
-	left: 30%;
+	
 	top: 40%;
 	background-color: lightpink;
 	animation-duration: 4s;
+	position: absolute;
+	top: 40%;
+	left: 18%;
+	border-radius: 50%;
+    animation: move 2s ease-in infinite;
 }
 
 .balloon:nth-child(4){
@@ -54,7 +59,7 @@ left: 40%;
 }
 
 .balloon:nth-child(5){
-	left: 50%;
+	left: 35%;
 	top: 40%;
 	background-color: gray;
 	animation-duration: 6s;
@@ -74,7 +79,7 @@ left: 40%;
 }
 
 .balloon:nth-child(8){
-	left: 80%;
+	left: 89%;
 	top: 40%;
 	background-color: blue;
 	animation-duration: 3s;
@@ -97,20 +102,35 @@ h2{
 		font-size: 40px;
 		color: white;
 		position: absolute;
-		top: 15%;
+		top: 10%;
 		left: 40%;
 		font-family: cursive;
 		transform: translate(-30%,-50%);}
-		h4{
+		h3{
 			font-size: 25px;
 			color: white;
 			position: absolute;
-			top: 40%;
-			left: 75%;
+			top: 55%;
+			left: 80%;
 			font-family: cursive;
 			transform: translate(-30%,-50%);}
-		
-	
+/* 		
+			h3{
+				font-size: 30px;
+				color: white;
+				position: absolute;
+				top: 40%;
+				left: 40%;
+				font-family: cursive;
+				transform: translate(-30%,-50%);} */
+				h4{
+					font-size: 30px;
+					color: white;
+					position: absolute;
+					top: 60%;
+					left: 40%;
+					font-family: cursive;
+					transform: translate(-30%,-50%);}
 
 
 
